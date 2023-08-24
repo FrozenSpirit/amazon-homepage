@@ -1,0 +1,271 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+
+
+.nav_bar{
+    height: 69px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 60px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+
+.address{
+    color:white;
+    padding: 13px;
+
+}
+
+.add-first{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 14px;
+}
+
+.icon{
+    display:flex;
+    color:#ffffff
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.hover_effect:hover{
+
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+.search{
+    display:flex;
+    width:620px;
+    justify-content: space-evenly;
+
+}
+
+.all_dropdown{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid grey;
+    font-size: 0.8rem;
+    height: 60;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.search_bar{
+    width: 85%;
+    font-size: 1rem;
+    border:none;
+}
+
+.search_icon{
+    color:black;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width: 10%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #fedb68;
+}
+
+.search_icon:hover{
+    background-color: #f4ca43;
+}
+
+.nav_signin{
+    color:white;
+    padding: 15px;
+}
+
+.signin_1{
+    font-size: 0.75rem;
+
+}
+
+.signin_2{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.cart_box{
+    color: white;
+    display: flex;
+    margin-right: 20px;
+    padding: 13px;
+}
+
+.cart{
+    font-size: 2rem;
+}
+
+.cart_1{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 0.9rem;
+    font-weight: 700px;
+}
+
+
+/** Second Nav **/
+
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all{
+    margin-left: 1%;
+}
+
+.panel_ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel_ops p{
+    display: inline;
+    margin: 10px;
+}
+
+.deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: 2%;
+}
+
+/** Hero Section **/
+
+.bar3{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: center;;
+
+}
+
+.bar3_inside{
+    background-color: #FFFFFF;
+    font-size: 0.85rem;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.bar3_inside a {
+    color: rgb(48, 137, 206);
+    text-decoration: none;
+}
+
+.content{
+    
+    background-color: #b0c2d7;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card h2{
+    margin-left: 0.6rem;
+    margin-bottom: 1rem;
+
+}
+
+.card a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.card_img{
+    height: 75%;
+    width: 95%;
+    background-image: url(box1_image.jpg);
+    background-size: cover;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+/** Footer **/
+
+.footer_1{
+    height: 50px;
+    background-color: #222f3d;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.footer_1 a:hover{
+    cursor: pointer;
+    color: rgb(30, 142, 203);
+}
+
+.footer2{
+    background-color:#37475a;
+    color:#FFFFFF;
+    height: 70px;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer2_b1 span{
+    display: block;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.85rem;
+}
+
+.footer2_b1 span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer2_b1 p{
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+}
